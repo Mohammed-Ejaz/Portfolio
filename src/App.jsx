@@ -22,6 +22,9 @@ function App() {
       duration: 1.1,
       smoothWheel: true,
       lerp: 0.08,
+      // Touch scroll is already smooth natively; letting Lenis re-simulate
+      // it usually feels laggier, not smoother, so only smooth mouse-wheel.
+      syncTouch: false,
     });
 
     let animationFrame;

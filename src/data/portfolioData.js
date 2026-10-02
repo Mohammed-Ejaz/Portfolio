@@ -96,10 +96,23 @@ export const portfolioData = {
                 "Item categorization",
                 "Search functionality",
             ],
-            // Add a URL to show the link. Empty means the link is hidden.
-            github: "",
-            live: "",
         },
+        {
+    number: "02",
+    title: "ClientSync",
+    category: "Client Onboarding SaaS Platform",
+    description:
+        "A full-stack platform that lets freelancers send secure, branded onboarding links to clients and collect structured project data — replacing scattered email threads with one clean intake flow.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Framer Motion"],
+    features: [
+        "JWT-secured freelancer dashboard with role-based onboarding",
+        "Unique, expiring onboarding links generated per client",
+        "Specialty-based dynamic intake forms (developer, designer, marketer)",
+        "Real-time submission tracking with inline editing and audit-safe data sanitization",
+    ],
+    github: "https://github.com/Mohammed-Ejaz/ClientSync",
+    live: "https://client-sync-pi.vercel.app/",
+},
     ],
 
     skills: {
