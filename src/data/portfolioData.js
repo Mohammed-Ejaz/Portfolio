@@ -14,8 +14,8 @@ export const portfolioData = {
         availability: "Open to opportunities",
 
         // Put real URLs here. While these are empty the links stay hidden.
-        github: "",
-        linkedin: "",
+        github: "https://github.com/Mohammed-Ejaz",
+        linkedin: "https://www.linkedin.com/in/mohammed-ejaz-k-a-b35513300/",
     },
 
     hero: {
@@ -47,9 +47,9 @@ export const portfolioData = {
         },
         {
             value: "95%",
-            label: "STABILITY",
+            label: "TEST COVERAGE",
             description:
-                "Reported stability of refactored critical business logic.",
+                "Achieved across critical business logic services with Jest.",
         },
     ],
 
@@ -58,13 +58,12 @@ export const portfolioData = {
             period: "10/2025 — 04/2026",
             role: "React Developer Intern",
             company: "MassimoPro",
-            location: "Bangalore, India",
+            location: "Bangalore, India (Remote)",
             highlights: [
-                "Reduced boilerplate code by 30% across multiple enterprise-grade modules by migrating legacy Redux global state to modular Custom Hook architecture.",
-                "Standardized 5+ data-intensive master modules using the Innovaccer Design System (MDS).",
-                "Developed unit test suites with Jest and React Testing Library for critical business services.",
-                "Created reusable custom hooks for form handling and modal management.",
-                "Resolved complex merge conflicts and implemented refinements from senior developer peer reviews.",
+                "Migrated legacy Redux global state to modular custom hooks, achieving a 30% reduction in boilerplate code across enterprise modules.",
+                "Standardized 5+ data-intensive master modules using the Innovaccer Design System (MDS), ensuring UI consistency.",
+                "Developed unit test suites with Jest and React Testing Library, achieving 95% test coverage on critical business logic.",
+                "Decoupled complex form handling and modal logic into reusable custom hooks, accelerating developer feature turnaround.",
             ],
         },
         {
@@ -73,11 +72,9 @@ export const portfolioData = {
             company: "Luminar Techno Lab",
             location: "Ernakulam, India",
             highlights: [
-                "Developed dynamic web applications using MongoDB, Express, React and Node.js.",
-                "Integrated third-party APIs to extend website capabilities.",
-                "Built responsive interfaces with an emphasis on intuitive user experience.",
-                "Tested applications, identified bugs and helped improve reliability.",
-                "Gained hands-on experience in full-stack development and deployment.",
+                "Developed responsive full-stack applications utilizing MongoDB, Express.js, React, and Node.js (MERN).",
+                "Integrated third-party REST APIs and authentication workflows, optimizing data fetching and rendering efficiency.",
+                "Performed cross-browser testing and debugging, improving overall UI responsiveness and user experience.",
             ],
         },
     ],
@@ -91,28 +88,53 @@ export const portfolioData = {
                 "An Android app for buying and selling goods and study materials within the campus community, with user authentication, item categories and search.",
             technologies: ["Android", "Authentication", "Search", "Categories"],
             features: [
-                "Peer-to-peer marketplace",
-                "User authentication",
-                "Item categorization",
-                "Search functionality",
+                "Peer-to-peer marketplace application enabling campus-wide commerce",
+                "User authentication and profile management",
+                "Item categorization and filtering",
+                "Real-time search functionality",
             ],
         },
         {
-    number: "02",
-    title: "ClientSync",
-    category: "Client Onboarding SaaS Platform",
-    description:
-        "A full-stack platform that lets freelancers send secure, branded onboarding links to clients and collect structured project data — replacing scattered email threads with one clean intake flow.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Framer Motion"],
-    features: [
-        "JWT-secured freelancer dashboard with role-based onboarding",
-        "Unique, expiring onboarding links generated per client",
-        "Specialty-based dynamic intake forms (developer, designer, marketer)",
-        "Real-time submission tracking with inline editing and audit-safe data sanitization",
-    ],
-    github: "https://github.com/Mohammed-Ejaz/ClientSync",
-    live: "https://client-sync-pi.vercel.app/",
-},
+            number: "02",
+            title: "ClientSync",
+            category: "Client Onboarding SaaS Platform",
+            description:
+                "A full-stack platform that lets freelancers send secure, branded onboarding links to clients and collect structured project data — replacing scattered email threads with one clean intake flow.",
+            technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT", "Framer Motion"],
+            features: [
+                "Dynamic multi-step client intake forms and real-time dashboard with auto-saving and Framer Motion animations",
+                "REST API built with Node.js & Express integrated with MongoDB (Mongoose) for schema-driven data persistence",
+                "Secured with JWT authentication, bcrypt password hashing, CORS protection, and API rate limiting",
+                "Client-specific expiring intake links and structured data export",
+            ],
+            github: "https://github.com/Mohammed-Ejaz/ClientSync",
+            live: "https://client-sync-pi.vercel.app/",
+        },
+        {
+            number: "03",
+            title: "EquiShare",
+            category: "Group Expense Settlement Platform",
+            description:
+                "A full-stack web application to automate shared expense tracking and roommate settlements, replacing manual math with a secure ledger, smart debt simplification, and OCR receipt scanning.",
+            technologies: [
+                "React",
+                "Vite",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "JWT",
+                "Tesseract.js",
+                "Framer Motion",
+            ],
+            features: [
+                "Interactive React & Tailwind dashboard to manage group members, log shared expenses, and track real-time balances",
+                "REST API built with Node.js and Express.js featuring JWT authentication and bcrypt encryption",
+                "Custom debt simplification algorithm programmed in JavaScript to minimize transaction count",
+                "Optical character recognition (OCR) with Tesseract.js for automatic receipt parsing and bill splitting",
+            ],
+            github: "https://github.com/Mohammed-Ejaz/equishare",
+            live: "https://equishare-livid.vercel.app/",
+        },
     ],
 
     skills: {
@@ -121,6 +143,8 @@ export const portfolioData = {
             "JavaScript",
             "HTML5",
             "CSS",
+            "Tailwind CSS",
+            "Framer Motion",
             "Bootstrap",
             "Custom Hooks",
         ],
@@ -130,7 +154,6 @@ export const portfolioData = {
         soft: [
             "Communication",
             "Creativity",
-            "Detail-Oriented Execution",
             "Time Management",
             "Team Collaboration",
         ],
@@ -146,12 +169,12 @@ export const portfolioData = {
                 "Foundation in computer science, software development and information technology, with exposure to programming languages, data structures and software engineering principles.",
         },
         {
-            period: "2024 — 12/2024",
-            title: "MEARN Stack",
+            period: "05/2024 — 12/2024",
+            title: "MEARN Stack Web Development (Certification)",
             institution: "Luminar Techno Lab",
             location: "Ernakulam, India",
             description:
-                "Hands-on training in MongoDB, Express.js, React.js and Node.js with emphasis on scalable, efficient and user-friendly web applications.",
+                "Hands-on training and certification in MongoDB, Express.js, React.js and Node.js with emphasis on scalable, secure and user-friendly web applications.",
         },
     ],
 
